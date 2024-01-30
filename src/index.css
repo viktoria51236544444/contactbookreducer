@@ -1,13 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@500&family=Roboto:wght@700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Glitch&family=Sevillana&family=Single+Day&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  background-color: rgb(209, 236, 210);
+  font-family: Single Day;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: #4bd773;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  display: flex;
+  border: 1px solid black;
+  width: 600px;
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 6%;
+}
+
+.lastName,
+.name {
+  margin: 0;
+}
+.h4 {
+  margin-top: 30px;
+  margin-left: 8%;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.button {
+  background: #4bd773;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  color: #083916ba;
+  margin-left: 8px;
+}
+.buttonhome {
+  margin-left: 10%;
+  margin-top: 23px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-field input {
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+  font-family: Single Day;
+  font-size: 20px;
+}
+
+.button2 {
+  background: #4bd773;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  color: #083916ba;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.add {
+  margin-left: 42%;
+}
+button {
+  font-family: Single Day;
+}
+.container3 {
+  display: flex;
+}
+.IMG7 {
+  margin-left: 60%;
+  margin-top: -14%;
+}
+.details {
+  margin-left: 40%;
+  font-size: 20px;
+  border: 3px solid #082f13ba;
+  border-radius: 10px;
+  width: 250px;
+  height: 405px;
+  margin-top: 3%;
+  background: #ddfae5;
+  text-align: center;
+}
+.img__details {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
